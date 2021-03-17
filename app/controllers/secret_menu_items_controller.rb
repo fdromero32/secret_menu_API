@@ -34,4 +34,5 @@ class SecretMenuItemsController < ApplicationController
   @secretMenuItem.destroy
   render json: @secretMenuItems
  end
+ 
 end
