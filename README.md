@@ -1,25 +1,15 @@
-# README
+# Rails API Reivew
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In the following Rails App, I was able to configure Rails to work as an API by following these 8 steps:
 
-Things you may want to cover:
+# Rails Steps
 
-* Ruby version
+1. Enable CORS(Cross Origin Resource Sharing)
+2. Create model, controller, database migration table and route via rails g resource command
+3. Specify attributes and datatypes of a secret menu item
+4. Define index, show, create, update, and destroy actions
+5. Create routes for index, show, create, update, and destroy actions
+6. Seed data
+7. Fire up your server & postman to test API functionality
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# secret_menu_API
+[MIT](https://choosealicense.com/licenses/mit/)
